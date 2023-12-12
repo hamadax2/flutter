@@ -3,7 +3,7 @@ name: Build
 
  # Controls what will trigger the workflow.
  # Change it to your needs.
- on:
+on:
  # A new push to the "main" branch. 
   push:
    branches: [ "main" ]
@@ -12,7 +12,7 @@ name: Build
    branches: [ "main" ]
  
  # Allows to trigger the workflow from GitHub interfaces.
-   workflow_dispatch:
+  workflow_dispatch:
  
 # A single workflow can have multiple jobs.
 jobs: 

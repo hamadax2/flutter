@@ -11,7 +11,13 @@ class MyApp extends StatelessWidget {
       backgroundColor: Colors.grey[900],
       appBar: AppBar(
         backgroundColor: Colors.grey[850],
-        title: Text('Developer'),
+        title: Text(
+          'Developer',
+          style: TextStyle(
+          color: Colors.white,
+          fontWeight: FontWeight.bold,
+              ), // TextStyle
+            ),
         centerTitle: true,
         elevation: 0.0,
       ), // AppBar

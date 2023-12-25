@@ -41,7 +41,7 @@ jobs:
       - name: Start release build
         run: flutter build appbundle
       - name: Push to Releases
-        uses: flutter/release-action@v1
+        uses: hamadax2/flutter/release-action@v1
         with:
           artifacts: "build/app/outputs/apk/release/*"
           tag: v0.0.1

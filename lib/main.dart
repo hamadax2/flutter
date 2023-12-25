@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         title: Text(
           'Developer',
           style: TextStyle(
-          color: Colors.white,
+          color: Colors.grey[400],
           fontWeight: FontWeight.bold,
               ), // TextStyle
             ),

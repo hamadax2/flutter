@@ -43,6 +43,5 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
-          artifacts: "build/app/outputs/apk/release/*"
-          tag: v0.0.1
-          token: ${{ secrets.Hamada }}
+          name: package
+          path: "build/app/outputs/apk/release/*"

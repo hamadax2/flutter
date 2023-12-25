@@ -26,4 +26,4 @@ jobs:
         with:
           artifacts: "build/app/outputs/apk/release/*"
           tag: v0.0.1
-          token: ${{ secrets.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 }}
+          token: ${{ secrets.Hamada }}

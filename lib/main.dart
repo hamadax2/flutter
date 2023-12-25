@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
           children: <Widget>[
             Center(
               child: CircleAvatar(
-                backgroundImage: AssetImage('/assets/me.jpg'),
+                backgroundImage: AssetImage('assets/me.jpg'),
                 radius: 80.0,
               ), // CircleAvatar
             ), // Center
